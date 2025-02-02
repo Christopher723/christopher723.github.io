@@ -3,24 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hire Vision - VR AI Powered Mock Interview App</title>
     <style>
-        /* Set the body and html to have no margins and make sure the image covers the entire screen */
+        /* Reset body and html margins, padding and ensure full height */
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #f4f4f9;
         }
 
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensures the image covers the whole screen without distortion */
+        /* Container for content */
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+        }
+
+        p {
+            color: #7f8c8d;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
-    <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" alt="Description of image">
+
+    <div class="container">
+        <h1>Welcome to Hire Vision</h1>
+        <p>Your VR and AI-powered mock interview assistant designed to help you ace your job interviews!</p>
+        <p>With realistic simulations and AI-driven feedback, you can practice anytime, anywhere.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+
 </body>
 </html>
